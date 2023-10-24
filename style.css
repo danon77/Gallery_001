@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #d8dae2;
+}
+
+.gallery {
+    position: relative;
+    padding: 62px;
+    width: 1062px;
+    height: 777px;
+    border-radius: 26px;
+    background: #eff0f1;
+    box-shadow: 0px 76px 27px 0px rgba(6, 27, 82, 0.1);
+}
+
+.top-ellipse {
+    position: absolute;
+    top: -143px;
+    right: 37px;
+    width: 310px;
+    height: 294px;
+    border-radius: 310px;
+    background: linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), #E5E7F0;
+    z-index: -1;
+}
+
+.bottom-ellipse {
+    position: absolute;
+    bottom: -164px;
+    left: -30px;
+    width: 433px;
+    height: 410px;
+    border-radius: 433px;
+    background: linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), linear-gradient(0deg, #E5E7F0 0%, #E5E7F0 100%), #E5E7F0;
+    z-index: -1;
+}
+
+.info {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 24px;
+    width: 443px;
+    height: 108px;
+}
+
+.title {
+    color: #0e0e38;
+    font-family: "Merriweather", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.options {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+}
+
+.options li {
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.options a {
+    text-decoration: none;
+    color: #0e0e38;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    width: 938px;
+    height: 489px;
+}
+
+.block {
+    width: 437px;
+    height: 489px;
+    padding: 24px;
+    background: #fff;
+    border-radius: 32px;
+}
+
+.big-image {
+    width: 389px;
+    height: 268px;
+    background: url(./images/people/001.jpg) center / cover;
+    border-radius: 24px;
+}
+
+.small-images {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    width: 389px;
+    height: 97px;
+
+}
+
+.small-image {
+    width: 119px;
+    height: 97px;
+    border-radius: 24px;
+}
+
+.small-image:nth-child(1) {
+    background: url(./images/people/002.jpg) center 0 / cover;
+}
+
+.small-image:nth-child(2) {
+    background: url(./images/people/003.jpg) center -20px / 150%;
+}
+
+.small-image:nth-child(3) {
+    background: url(./images/people/004.jpg) center / cover;
+}
+
+.block-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    width: 389px;
+    height: 36px;
+}
+
+.title {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E38;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 62px;
+    height: 36px;
+}
+
+.icon {
+    width: 31px;
+    height: 31px;
+    background: url(./images/gallery.svg);
+}
+
+.text-to-icon {
+    height: 25px;
+    color: #0E0E38;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.big-image-second {
+    width: 389px;
+    height: 268px;
+    background: url(./images/history/001.jpg) center / cover;
+    border-radius: 24px;
+}
+
+.small-image-second {
+    width: 119px;
+    height: 97px;
+    border-radius: 24px;
+}
+
+.small-image-second:nth-child(1) {
+    background: url(./images/history/002.jpg) center / cover;
+}
+
+.small-image-second:nth-child(2) {
+    background: url(./images/history/003.jpg) center / cover;
+}
+
+.small-image-second:nth-child(3) {
+    background: url(./images/history/004.jpg) center / cover;
+}
